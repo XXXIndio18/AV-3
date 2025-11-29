@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Redações - Português</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">📚 Meu Site de Redações</h1>
+            <button id="menu-toggle" class="menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- NAVEGAÇÃO -->
+    <nav id="main-nav" class="nav">
+        <ul class="nav-list">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#redacoes">Minhas Redações</a></li>
+            <li><a href="#midia">Galeria do Ano</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="main">
+        <!-- SEÇÃO HERO -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2>Bem-vindo ao Meu Site</h2>
+                <p>Conheça as 15 produções desenvolvidas na disciplina de Português e Redação durante este ano.</p>
+                <button class="btn-primary" onclick="document.getElementById('redacoes').scrollIntoView({behavior: 'smooth'})">Ver Minhas Redações</button>
+            </div>
+        </section>
+
+        <!-- SEÇÃO SOBRE -->
+        <section id="sobre" class="about">
+            <div class="container">
+                <h2>Sobre</h2>
+                <div class="about-content">
+                    <p>
+                        Este Site apresenta meus trabalhos desenvolvidos na disciplina de Português e Redação. 
+            </div>
+        </section>
+
+        <!-- SEÇÃO REDAÇÕES -->
+        <section id="redacoes" class="redacoes">
+            <div class="container">
+                <h2>Minhas 15 Produções</h2>
+                <div class="grid-redacoes">
+                    <!-- REDAÇÃO 1 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #1 "Por que os procedimentos estéticos estão aumentando entre os jovens?</h3>
+                            <span class="badge">Gênero: Dissertativo-argumentativo</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[Nos últimos anos, observa-se um crescimento significativo na busca por procedimentos estéticos entre os jovens. Esse fenômeno pode ser explicado, principalmente, pela influência das redes sociais, que intensificam padrões de beleza muitas vezes inalcançáveis. A exposição constante a imagens editadas e filtros cria a sensação de que é necessário aperfeiçoar a aparência para alcançar aceitação e sucesso.
+                                                    Além disso, a popularização de técnicas minimamente invasivas, mais acessíveis e de rápida recuperação, contribui para a expansão desse mercado. A pressão estética, associada ao desejo de pertencimento, leva muitos jovens a recorrerem a intervenções como forma de elevar a autoestima.
+                                                    No entanto, esse aumento levanta preocupações. A busca precoce por mudanças físicas pode gerar frustrações, dependência emocional e problemas de saúde. o aumento dos procedimentos estéticos entre essa faixa etária resulta de um conjunto de influências sociais, midiáticas e tecnológicas que moldam percepções sobre beleza e identidade, questionar padrões e incentivar a aceitação corporal são passos essenciais para enfrentar esse cenário.]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: 30/07/2025</small>
+                        </div>
+                    </article>
+
+                    <!-- REDAÇÃO 2 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #2 "Acessibilidade e inclusão de pessoas com deficiência no brasil"</h3>
+                            <span class="badge">Gênero: Dissertativo-argumentativo  </span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[A acessibilidade é um direito fundamental garantido por diversas leis brasileiras, como a Lei nº 10.098 e a Lei Brasileira de Inclusão (LBI), que têm como objetivo assegurar autonomia e igualdade para pessoas com deficiência. Apesar dos avanços jurídicos, como a obrigatoriedade de adaptações arquitetônicas, comunicacionais e digitais, a inclusão plena ainda enfrenta desafios significativos no país.
+
+Muitos espaços públicos e privados permanecem inadequados, revelando o descumprimento de normas importantes, como o Decreto nº 5.296. Além disso, barreiras atitudinais — resultado do capacitismo e da falta de conscientização — dificultam a participação social e profissional dessa população. Acessibilidades metodológica, instrumental e comunicacional, essenciais para educação e trabalho, também são frequentemente negligenciadas.
+
+Portanto, promover inclusão exige mais do que leis: demanda fiscalização efetiva, investimentos em tecnologias assistivas e mudança cultural. Somente com a eliminação de todas as barreiras — físicas, sociais e informacionais — o Brasil poderá garantir uma sociedade verdadeiramente inclusiva e democrática.]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: 04/08/2025</small>
+                        </div>
+                    </article>
+
+                    <!-- REDAÇÃO 3 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #3 "Principais fatores que influenciam na qualidade de vida e no bem-estar da população"</h3>
+                            <span class="badge">Gênero: Dissertativo-argumentativo</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[A qualidade de vida e o bem-estar da população dependem de múltiplos fatores que vão além da ausência de doenças. Segundo a Organização Mundial da Saúde, esses conceitos envolvem dimensões físicas, emocionais, sociais e ambientais, demonstrando que a percepção individual sobre a própria vida está relacionada tanto às condições objetivas quanto às subjetivas do cotidiano. Elementos como acesso à saúde, saneamento básico, segurança, lazer e relações sociais saudáveis influenciam diretamente o bem-estar coletivo.
+
+        Além disso, hábitos individuais também exercem papel fundamental. Alimentação equilibrada, prática regular de exercícios, sono adequado e gerenciamento do estresse contribuem para a manutenção do bem-estar físico e mental. Contudo, essas práticas só são plenamente possíveis quando há políticas públicas que garantam oportunidades e ambientes favoráveis.
+
+        Diante disso, é essencial que o Estado invista em infraestrutura urbana, programas de saúde preventiva e ações de promoção social. Propõe-se, portanto, a ampliação de campanhas educativas e o fortalecimento dos serviços básicos, assegurando que todos possam alcançar uma vida digna. Dessa forma, será possível construir uma sociedade mais saudável, equilibrada e inclusiva.]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: 11/08/2025</small>
+                        </div>
+                    </article>
+
+                    <!-- REDAÇÃO 4 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #4 "As mudanças climáticas no brasil e seus desafios"</h3>
+                            <span class="badge">Gênero: Dissertativo-argumentativo</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[As mudanças climáticas representam um dos maiores desafios contemporâneos, afetando diretamente a realidade brasileira. O aquecimento global, intensificado pela emissão de gases de efeito estufa, tem provocado aumento da temperatura média, secas prolongadas, enchentes e deslizamentos. Como apontam relatórios do IPCC, países tropicais, como o Brasil, tendem a sofrer impactos mais severos, entre eles prejuízos à agricultura, escassez de água potável e riscos à biodiversidade.
+
+Além disso, o avanço do desmatamento e a expansão urbana desordenada agravam a vulnerabilidade ambiental, especialmente nas regiões amazônica e nordeste. A população mais pobre é a mais afetada, revelando um problema socioambiental que exige respostas urgentes.
+
+Diante desse cenário, é fundamental que o Estado implemente políticas públicas de mitigação e adaptação, como incentivo às energias renováveis, fiscalização ambiental e planejamento urbano sustentável. Propõe-se também campanhas educativas que promovam o consumo consciente e a preservação dos recursos naturais. Dessa forma, o Brasil poderá enfrentar os desafios climáticos de maneira coletiva, garantindo proteção ambiental e respeito aos direitos humanos.]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: 18/08/2025</small>
+                        </div>
+                    </article>
+
+                    <!-- REDAÇÃO 5 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #5 "As consequências do descarte de lixo eletrônico"</h3>
+                            <span class="badge">Gênero: Dissertativo-argumentativo</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[O Brasil enfrenta, historicamente, graves desigualdades sociais que se refletem na falta de acesso à moradia, alimentação e oportunidades. Nesse cenário, o trabalho voluntário emerge como ferramenta essencial para minimizar os impactos da exclusão, uma vez que possibilita a mobilização da sociedade civil em prol do bem-estar coletivo.
+
+Primeiramente, destaca-se que o voluntariado contribui para suprir lacunas deixadas pelo poder público. Ações como doação de alimentos, apoio educacional e projetos comunitários reduzem temporariamente os efeitos da pobreza extrema, ao mesmo tempo em que fortalecem vínculos de solidariedade. Além disso, a experiência adquirida pelos voluntários amplia a empatia e o senso de responsabilidade social, formando cidadãos mais conscientes e preparados para agir em prol do coletivo.
+
+Outro aspecto relevante é o potencial do voluntariado para fomentar transformações duradouras. Conforme demonstram pesquisas, mais da metade dos brasileiros já realizou alguma ação solidária, e iniciativas de empresas e organizações não governamentais fortalecem ainda mais esse movimento. Quando articuladas com lideranças locais, tais ações podem gerar mudanças estruturais, como o incentivo ao acesso à educação e a inserção no mercado de trabalho, o que contribui para a redução das desigualdades.
+
+Portanto, torna-se evidente que o trabalho voluntário não substitui políticas públicas, mas é um importante aliado no processo de inclusão social. Para potencializar sua eficácia, propõe-se que o governo, em parceria com escolas, empresas e organizações civis, promova campanhas de conscientização e plataformas digitais de integração entre voluntários e comunidades. Dessa forma, amplia-se a cultura solidária no país, garantindo maior alcance às ações e contribuindo para a construção de uma sociedade mais justa e igualitária.]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: 27/08/2025</small>
+                        </div>
+                    </article>
+
+                    <!-- REDAÇÃO 6 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #6 "O consumo de ultraprocessados e suas consequências à saúde"</h3>
+                            <span class="badge">Gênero: Dissertativo-argumentativo</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[Após a pandemia Covid 19, aumentou o numero de Ifood, local que vende e entrega alimentos ultra processados, como pizza, lanches, pratos rápidos e com isso aumentou o consumo. Apesar de ser uma maneira rápida e fácil, muitos não pensam nos efeitos que esses alimentos vão causar daqui alguns anos. Trazendo vários tipos de doenças para as pessoas, como a obesidade, doenças no coração ate mesmo câncer. Porque esse alimentos possuem muitos conservantes, sal, açúcar e o consumo em excesso faz muito mal. Principalmente as pessoas mais jovens o numero é maior o consumo por facilitar a vida. E devido a correria do dia a dia acham mais pratico e rápido. 
+As pessoas precisam se conscientizar sobre a mudança na alimentação, sendo mais saudável, pratica de exercícios físicos, ingerindo mais frutas e verduras, alimentos feitos em casa, para que no futuro a população seja mais saudável, sem doenças, sem obesidade e tenham uma vida longa.]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: 02/09/2025</small>
+                        </div>
+                    </article>
+
+                    <!-- REDAÇÃO 7 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #7 "Fatores e efeitos da dependência em jogos de apostas na web"</h3>
+                            <span class="badge">Gênero: Redação: Dissertativo-argumentativo</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[ Com o avanço da tecnologia e o fácil acesso à internet, os jogos de apostas online se tornaram cada vez mais populares, Essa prática, antes restrita a ambientes físicos, agora está ao alcance de qualquer pessoa com um celular ou computador.
+                No entanto, essa facilidade tem gerado um aumento preocupante da dependência por esse tipo de jogo. Fatores como a busca por dinheiro rápido, o estímulo visual constante e a sensação de recompensa imediata contribuem para o vício, As consequências são graves:endividamento, isolamento social, perda de produtividade e transtornos mentais, como ansiedade e depressão. Jovens e pessoas em situação financeira difícil são os mais afetados.
+                Diante desse cenário, é urgente que medidas sejam tomadas. A regulação das plataformas, campanhas de conscientização e o oferecimento de apoio psicológico são passos importantes para combater os efeitos da dependência. A sociedade precisa olhar para esse problema com seriedade e agir de forma preventiva. É dever do estado e da sociedade atuar juntos na prevenção desse problema crescente]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: 09/09/2025</small>
+                        </div>
+                    </article>
+
+                    <!-- REDAÇÃO 8 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #8 "A importância do trabalho voluntário no combate às desigualdades sociais"</h3>
+                            <span class="badge">Gênero: Dissertativo-argumentativo</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[O Brasil enfrenta, historicamente, graves desigualdades sociais que se refletem na falta de acesso à moradia, alimentação e oportunidades. Nesse cenário, o trabalho voluntário emerge como ferramenta essencial para minimizar os impactos da exclusão, uma vez que possibilita a mobilização da sociedade civil em prol do bem-estar coletivo.
+
+Primeiramente, destaca-se que o voluntariado contribui para suprir lacunas deixadas pelo poder público. Ações como doação de alimentos, apoio educacional e projetos comunitários reduzem temporariamente os efeitos da pobreza extrema, ao mesmo tempo em que fortalecem vínculos de solidariedade. Além disso, a experiência adquirida pelos voluntários amplia a empatia e o senso de responsabilidade social, formando cidadãos mais conscientes e preparados para agir em prol do coletivo.
+
+Outro aspecto relevante é o potencial do voluntariado para fomentar transformações duradouras. Conforme demonstram pesquisas, mais da metade dos brasileiros já realizou alguma ação solidária, e iniciativas de empresas e organizações não governamentais fortalecem ainda mais esse movimento. Quando articuladas com lideranças locais, tais ações podem gerar mudanças estruturais, como o incentivo ao acesso à educação e a inserção no mercado de trabalho, o que contribui para a redução das desigualdades.
+
+Portanto, torna-se evidente que o trabalho voluntário não substitui políticas públicas, mas é um importante aliado no processo de inclusão social. Para potencializar sua eficácia, propõe-se que o governo, em parceria com escolas, empresas e organizações civis, promova campanhas de conscientização e plataformas digitais de integração entre voluntários e comunidades. Dessa forma, amplia-se a cultura solidária no país, garantindo maior alcance às ações e contribuindo para a construção de uma sociedade mais justa e igualitária.]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: 19/09/2025</small>
+                        </div>
+                    </article>
+
+                    <!-- REDAÇÃO 9 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #9 "Adultização infantil – consequências da perda irreparável da infância"</h3>
+                            <span class="badge">Gênero: Dissertativo-argumentativo</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[A infância é uma etapa fundamental para o desenvolvimento cognitivo, emocional e social do ser humano. No entanto, a crescente adultização infantil tem comprometido esse processo, quando crianças são expostas precocemente a responsabilidades, comportamentos e padrões de consumo destinados a adultos. Tal fenômeno, impulsionado principalmente pela mídia e pelas redes sociais, ameaça a vivência plena dessa fase, acarretando consequências graves.
+
+De início, a pressão para se encaixar em padrões adultos gera ansiedade, baixa autoestima e até depressão. Crianças que deveriam brincar e explorar o mundo de forma lúdica passam a se preocupar com aparência, status e produtividade. Ademais, a sexualização precoce, presente em produtos midiáticos e na moda, coloca meninas e meninos em situações de vulnerabilidade, favorecendo riscos como exploração e gravidez indesejada, o que prejudica de forma irreversível o futuro dessas jovens vidas.
+
+Outro fator relevante é a ausência de acompanhamento familiar. Pais e responsáveis, devido ao ritmo acelerado de trabalho, muitas vezes negligenciam a supervisão das atividades online, o que favorece o acesso a conteúdos impróprios. Tal lacuna reforça a necessidade de diálogo, de ambientes que estimulem brincadeiras e do fortalecimento de vínculos afetivos, como forma de garantir que as crianças possam viver plenamente sua fase natural de descobertas.
+
+Nesse contexto, cabe ao Estado, em parceria com escolas e organizações civis, desenvolver campanhas de conscientização para famílias e educadores sobre os perigos da adultização. Além disso, é fundamental que sejam criadas plataformas digitais de monitoramento acessíveis aos pais, garantindo maior segurança no uso das redes sociais. Assim, ao unir esforços institucionais e familiares, será possível assegurar o direito das crianças de viver a infância de maneira plena, respeitando os direitos humanos e preservando sua formação integral.]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: 26/09/2025</small>
+                        </div>
+                    </article>
+
+                    <!-- REDAÇÃO 10 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #10 "Caminhos para combater o etarismo nas relações sociais"</h3>
+                            <span class="badge">Gênero: Dissertativo-argumentativo</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[ O envelhecimento da população mundial é uma das maiores conquistas da humanidade, fruto dos avanços da ciência e da melhoria da qualidade de vida. No entanto, paralelamente a esse cenário positivo, cresce também o etarismo — preconceito baseado na idade, que atinge principalmente os idosos. Essa forma de discriminação limita a participação social, afeta a saúde mental e perpetua estereótipos que reduzem os mais velhos a um papel secundário na sociedade.
+
+ Segundo especialistas em gerontologia, o etarismo gera isolamento e sentimentos de rejeição, frequentemente associados a quadros de depressão. Ademais, restringir o idoso apenas ao âmbito da saúde é uma visão reducionista, pois desconsidera seus desejos, capacidades e contribuições em diferentes áreas, como o mercado de trabalho e a vida cultural. Casos como o da modelo Rosa Saito, que iniciou a carreira após os 70 anos, demonstram que a idade não deve ser vista como limite, mas como acúmulo de experiências e sabedoria.
+
+ Nesse sentido, enfrentar o etarismo exige múltiplas ações. É essencial promover a inclusão digital e a capacitação profissional dos idosos, ampliando sua inserção no mercado de trabalho. Também se faz necessário investir em campanhas de conscientização que desconstruam estereótipos, destacando o envelhecimento como etapa natural e digna. Além disso, escolas e universidades podem incluir em seus currículos debates sobre diversidade etária, formando cidadãos mais empáticos.
+
+ Dessa forma, como proposta de intervenção, cabe ao Estado, em parceria com organizações civis, implementar programas educativos e plataformas de integração intergeracional, que incentivem a troca de experiências entre jovens e idosos. Assim, será possível construir uma sociedade que valorize todas as idades, promovendo o respeito, a equidade e a dignidade humana]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: 26/09/2025</small>
+                        </div>
+                    </article>
+
+                    <!-- REDAÇÃO 11 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #11 "A importância da educação financeira para os jovens"</h3>
+                            <span class="badge">Gênero: Dissertativo-argumentativo</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[A educação financeira tornou-se um componente essencial na formação dos jovens, especialmente em um contexto marcado pelo consumo acelerado e pelo fácil acesso ao crédito. Dados do SPC Brasil revelam que 19% dos jovens entre 18 e 24 anos estão endividados, evidenciando a falta de preparo para lidar com responsabilidades econômicas. A ausência de conhecimento sobre orçamento, poupança e planejamento torna essa parcela da população mais vulnerável à cumprimento de obrigações financeiras dentro do prazo acordado, como o atraso no pagamento de contas, financiamentos ou dívidas.
+
+        Nesse sentido, a educação financeira deve ser estimulada desde cedo, tanto no ambiente familiar quanto no escolar. O diálogo aberto sobre dinheiro, aliado a práticas como mesada orientada e uso consciente de contas digitais, contribui para o desenvolvimento de hábitos responsáveis. Além disso, mesmo famílias de baixa renda se beneficiam desse aprendizado, pois ele reduz o analfabetismo financeiro e ajuda na tomada de decisões futuras.
+
+        Assim, é fundamental que o Estado implemente programas educacionais que incluam o tema no currículo escolar e que instituições financeiras promovam iniciativas de orientação gratuita. Dessa forma, será possível formar jovens mais preparados, autônomos e capazes de construir uma vida econômica equilibrada e sustentável.]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: 10/10/2025</small>
+                        </div>
+                    </article>
+
+                    <!-- REDAÇÃO 12 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #12 "Desafios para a valorização da cultura popular brasileira"</h3>
+                            <span class="badge">Gênero: Dissertativo-argumentativo</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[A cultura popular brasileira, rica em diversidade e representatividade, cumpre um papel essencial na construção da identidade nacional. Entretanto, apesar de sua relevância histórica e social, ela enfrenta diversos desafios para alcançar a valorização adequada. A influência massiva da mídia e da cultura globalizada, por exemplo, contribui para a invisibilização de manifestações tradicionais, como festas populares, danças e práticas religiosas, que muitas vezes são vistas como menos prestigiosas.
+
+        Além disso, a falta de investimento público e de políticas culturais contínuas dificulta a preservação dessas expressões, afetando comunidades que dependem da economia criativa para sustentar suas tradições. A ausência de espaços de divulgação também limita o acesso da população a formas variadas de cultura, comprometendo o direito à expressão e à diversidade.
+
+        Diante disso, é essencial que o Estado amplie editais e incentivos culturais, garantindo recursos para grupos tradicionais. Propõe-se, ainda, parcerias entre escolas e comunidades locais para promover festivais e oficinas culturais, estimulando o respeito à memória e à identidade do povo brasileiro. Assim, será possível fortalecer as manifestações populares e assegurar sua continuidade para as futuras gerações.]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: 17/10/2025</small>
+                        </div>
+                    </article>
+
+                    <!-- REDAÇÃO 13 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #13 "Caminhos para a universalização do saneamento básico no brasil"</h3>
+                            <span class="badge">Gênero: Dissertativo-argumentativo</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[A universalização do saneamento básico no Brasil constitui um desafio histórico que afeta diretamente a saúde pública e a dignidade humana. Dados da Associação Brasileira de Engenharia Sanitária e Ambiental revelam que milhares de internações por doenças de transmissão feco-oral continuam ocorrendo devido à ausência de água potável e à precariedade do esgotamento sanitário. Esse cenário evidencia não apenas desigualdade social, mas também a ineficiência de políticas públicas que, por décadas, avançaram lentamente.
+
+Embora o Marco Legal do Saneamento, de 2020, estabeleça metas ambiciosas para 2033, sua implementação demanda investimentos contínuos, gestão integrada e fiscalização rigorosa. A falta de articulação entre municípios, estados e União, somada à carência de infraestrutura, torna o processo ainda mais complexo.
+
+Para reverter essa realidade, é essencial fortalecer parcerias público-privadas, garantindo transparência e metas claras. Além disso, o governo deve ampliar o financiamento para obras de abastecimento e esgotamento, priorizando regiões vulneráveis. Campanhas educativas sobre uso responsável da água também são fundamentais. Assim, será possível avançar rumo à universalização do saneamento e assegurar qualidade de vida à população brasileira.]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: 24/10/2025</small>
+                        </div>
+                    </article>
+
+                    <!-- REDAÇÃO 14 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #14 "O papel do esporte como ferramenta de transformação social"</h3>
+                            <span class="badge">Gênero: Dissertativo-argumentativo</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[O esporte, mais do que uma atividade física, constitui uma poderosa ferramenta de inclusão e transformação social no Brasil. Em um país marcado pela desigualdade, práticas esportivas oferecem oportunidades de desenvolvimento pessoal e coletivo, especialmente para jovens em situação de vulnerabilidade. Ao promover disciplina, cooperação e respeito, o esporte contribui para a formação cidadã e estimula valores essenciais para a convivência social.
+
+        Além disso, modalidades coletivas, como o futebol, favorecem a criação de vínculos e o fortalecimento da autoestima, ao passo que ampliam horizontes e podem até gerar perspectivas profissionais. Como afirmou Nelson Mandela, o esporte tem o poder de unir pessoas e inspirar mudanças significativas, tornando-se um meio eficaz de superar barreiras sociais, culturais e econômicas.
+
+        Além disso, projetos esportivos em comunidades vulneráveis oferecem alternativas concretas à violência e à exclusão, criando espaços de acolhimento e desenvolvimento. Nesse sentido, o esporte não apenas promove saúde e bem-estar, mas também atua como uma via de mobilidade social, capaz de transformar trajetórias individuais.]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: 31/10/2025</small>
+                        </div>
+                    </article>
+
+                    <!-- REDAÇÃO 15 -->
+                    <article class="card-redacao">
+                        <div class="card-header">
+                            <h3>Redação #15</h3>
+                            <span class="badge">Gênero: ----</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="placeholder">[-------]</p>
+                        </div>
+                        <div class="card-footer">
+                            <small>Data: --/--/--</small>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO GALERIA DO ANO LETIVO -->
+        <section id="midia" class="midia">
+            <div class="container">
+                <h2>📸 Galeria - Encerramento do Ano Letivo</h2>
+                <p class="midia-intro">Momentos especiais e memoráveis do ano letivo em fotos, vídeos e áudios.</p>
+                
+                <!-- GALERIA DE FOTOS -->
+                 <h3>Fotos do Ano</h3>
+                <div class="grid-midia">
+                    <div class="midia-card">
+                        <img src="https://midia.frm.org.br/drupal/public/styles/imagem_paragraph_foto/public/media/image/2023-10/TECNOLOGIA%20EM%20SALA%20DE%20AULA_FOTO%201%20-%20Cr%C3%A9dito_%20Iano%20Andrade%20_%20CNI.jpg.jpeg?VersionId=z4d0PkrPeJiBwjWsm1y406lf8fDmlnb2&itok=gl1tDId3" alt="Foto da turma em sala de aula" class="midia-img">
+                        <p>Momentos em sala de aula</p>
+                    </div>
+                    <div class="midia-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVPXB3WQVlPyHULGSkNA3QooC47j5L9aRjiw&s" class="midia-img">
+                        <p>Apresentação de trabalhos</p>
+                    </div>
+                    <div class="midia-card">
+                        <img src="https://revistaeducacao.devsocial.com.br/wp-content/uploads/2016/01/i466965.jpg" alt="Atividade em grupo" class="midia-img">
+                        <p>Atividades em grupo</p>
+                    </div>
+                    <div class="midia-card">
+                        <img src="https://ifrs.edu.br/alvorada/wp-content/uploads/sites/17/2025/11/15-1.jpg" alt="Confraternização da turma" class="midia-img">
+                        <p>Confraternização</p>
+                    </div>
+                    <div class="midia-card">
+                        <img src="https://www.educacao.pr.gov.br/sites/default/arquivos_restritos/files/imagem/migrados/galeria/1477/1369857346agelotablet09.jpg" alt="Entrega de trabalhos e celebração" class="midia-img">
+                        <p>Entrega de trabalhos</p>
+                    </div>
+                    <div class="midia-card">
+                        <img src="https://porvir-prod.s3.amazonaws.com/wp-content/uploads/2025/08/28201350/acalmar-sala-ensino-medio-interna.jpg" alt="Foto da turma comemorando o encerramento" class="midia-img">
+                        <p>Comemoração de encerramento</p>
+                    </div>
+                </div>
+
+        
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Todos os direitos reservados.</p>
+            <p>Desenvolvido para o Encerramento do Ano Letivo 2025</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
