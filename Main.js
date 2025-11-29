@@ -2,11 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.getElementById('menu-toggle');
     const nav = document.getElementById('main-nav');
 
-    // Menu hamburger
     menuToggle.addEventListener('click', () => {
         nav.classList.toggle('active');
         
-        // Animação do menu toggle
         const spans = menuToggle.querySelectorAll('span');
         if (nav.classList.contains('active')) {
             spans[0].style.transform = 'rotate(45deg) translateY(12px)';
@@ -19,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Fechar menu ao clicar em um link
     const navLinks = nav.querySelectorAll('a');
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
@@ -33,10 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Contador de redações preenchidas e taxa de conclusão
     atualizarEstatisticas();
     
-    // Observar mudanças no DOM para atualizar estatísticas
     const observer = new MutationObserver(atualizarEstatisticas);
     observer.observe(document.body, { childList: true, subtree: true });
 });
@@ -57,4 +52,5 @@ function atualizarEstatisticas() {
     
     document.getElementById('redacoes-completas').textContent = redacoesCompletas;
     document.getElementById('taxa-conclusao').textContent = taxaConclusao + '%';
+
 }
